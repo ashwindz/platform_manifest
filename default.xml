@@ -15,11 +15,11 @@
            sync-c="true"
            sync-j="4" />  
   <remote name="simarom"
-           fetch="https://github.com/SiMaRom"
+           fetch="https://github.com/SiMaRom/"
            sync-c="true"
            sync-j="4" />
   <remote name="pa"
-           fetch="https://github.com/paranoidandroid"
+           fetch="https://github.com/paranoidandroid/"
            sync-c="true"
            sync-j="4" />
   <default revision="refs/tags/android-4.3_r2.1"

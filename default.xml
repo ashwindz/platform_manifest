@@ -383,4 +383,5 @@
   <project path="vendor/lge" name="android_vendor_lge" remote="simarom" revision="jb-ras-mr1.1" />
   <project path="external/koush/Superuser" name="Superuser" remote="koush" revision="master" />
   <project path="external/koush/Widgets" name="Widgets" remote="koush" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_linux-x86_arm_sabermod-arm-linux-androideabi-4.9" remote="sm" revision="501d8e25aab57ac36c4206464572dac26a565b5e" />
 </manifest>

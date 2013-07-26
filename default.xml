@@ -37,11 +37,6 @@
   <project path="developers/docs" name="platform/developers/docs" />
   <project path="developers/samples/android" name="platform/developers/samples/android" />
   <project path="development" name="platform/development" />
-  <project path="device/asus/deb" name="device/asus/deb" groups="device,flo" />
-  <project path="device/asus/flo" name="device/asus/flo" groups="device,flo" />
-  <project path="device/asus/flo-kernel" name="device/asus/flo-kernel" groups="device,flo" />
-  <project path="device/asus/grouper" name="device/asus/grouper" groups="device,grouper" />
-  <project path="device/asus/tilapia" name="device/asus/tilapia" groups="device,grouper" />
   <project path="device/common" name="device/common" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
   <project path="device/generic/common" name="device/generic/common" groups="pdk" />
@@ -56,13 +51,6 @@
   <project path="device/lge/mako" name="device/lge/mako" groups="device,mako" />
   <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" revision="refs/tags/android-4.3_r2.1_" />
   <project path="device/sample" name="device/sample" groups="pdk" />
-  <project path="device/samsung/maguro" name="device/samsung/maguro" groups="device,tuna" />
-  <project path="device/samsung/manta" name="device/samsung/manta" groups="device,manta" />
-  <project path="device/samsung/toro" name="device/samsung/toro" groups="device,tuna" />
-  <project path="device/samsung/toroplus" name="device/samsung/toroplus" groups="device,tuna" />
-  <project path="device/samsung/tuna" name="device/samsung/tuna" groups="device,tuna" />
-  <project path="device/samsung_slsi/arndale" name="device/samsung_slsi/arndale" groups="device" />
-  <project path="device/ti/panda" name="device/ti/panda" groups="device" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/android-clat" name="platform/external/android-clat" />
@@ -272,11 +260,6 @@
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" />
   <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan" />
   <project path="hardware/ril" name="platform/hardware/ril" groups="pdk" />
-  <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" groups="exynos5" />
-  <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
-  <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" />
-  <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
-  <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />
   <project path="libcore" name="platform/libcore" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" />
@@ -284,7 +267,6 @@
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
   <project path="packages/apps/Browser" name="platform/packages/apps/Browser" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
-  <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
@@ -301,7 +283,6 @@
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
   <project path="packages/apps/Mms" name="platform/packages/apps/Mms" />
-  <project path="packages/apps/Music" name="platform/packages/apps/Music" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
@@ -318,7 +299,6 @@
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
-  <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
   <project path="packages/experimental" name="platform/packages/experimental" />
   <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" />
@@ -397,5 +377,5 @@
   <project path="tools/idea" name="platform/tools/idea" groups="notdefault,tools" />
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
-
+  <project path="vendor/lge" name="android_vendor_lge" remote="simarom" revision="jb-ras-mr1.1" />
 </manifest>

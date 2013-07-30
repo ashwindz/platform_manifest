@@ -385,7 +385,7 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   
   <project path="vendor/lge" name="proprietary_vendor_lge" remote="simarom" revision="android-4.3"/>
-  <project path="external/koush/Superuser" name="Superuser" remote="yanogenmod" revision="cm-10.2" />
+  <project path="external/koush/Superuser" name="Superuser" remote="cyanogenmod" revision="cm-10.2" />
   <project path="external/koush/Widgets" name="Widgets" remote="koush" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_linux-x86_arm_sabermod-arm-linux-androideabi-4.9" remote="sm" revision="501d8e25aab57ac36c4206464572dac26a565b5e" />
   <project path="external/busybox" name="android_external_busybox" remote="CyanogenMod" revision="cm-10.2" />  

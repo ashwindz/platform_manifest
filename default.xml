@@ -26,7 +26,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="android_build" groups="pdk" remote="simarom" revision="sm-jb-mr2" >
+  <project path="build" name="platform_build" groups="pdk" remote="simarom" revision="jb-mr2.0-release" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />

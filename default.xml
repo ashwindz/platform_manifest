@@ -383,4 +383,5 @@
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="vendor/lge" name="proprietary_vendor_lge" remote="simarom" revision="android-4.3"/>
+  <project path="vendor/simarom" name="android_vendor_simarom" remote="simarom" revision="sm-jb-mr2"/>
 </manifest>

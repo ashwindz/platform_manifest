@@ -10,7 +10,8 @@
            fetch="https://github.com/SiMaRom/" />
   <remote name="cm"
            fetch="git://github.com/CyanogenMod/" />
-  <default revision="refs/tags/android-4.3_r2.1" />
+  <default remote="aosp"
+           revision="refs/tags/android-4.3_r2.1" />
 
   <project path="build" name="platform_build" groups="pdk" remote="simarom" revision="jb-mr2.0-release" >
     <copyfile src="core/root.mk" dest="Makefile" />

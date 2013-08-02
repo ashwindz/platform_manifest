@@ -3,24 +3,14 @@
 
   <remote name="aosp"
            fetch="https://android.googlesource.com/"
-           review="https://android-review.googlesource.com/"
-           sync-c="true"
-           sync-j="4" />
+           review="https://android-review.googlesource.com/" />
   <remote name="sm"
-           fetch="https://github.com/SaberMod/"
-           sync-c="true"
-           sync-j="4" />  
+           fetch="https://github.com/SaberMod/"/>  
   <remote name="simarom"
-           fetch="https://github.com/SiMaRom/"
-           sync-c="true"
-           sync-j="4" />
+           fetch="https://github.com/SiMaRom/" />
   <remote name="cm"
-           fetch="git://github.com/CyanogenMod/"
-           sync-c="true"
-           sync-j="4" />
-  <default revision="refs/tags/android-4.3_r2.1"
-           remote="aosp"
-           sync-j="4" />
+           fetch="git://github.com/CyanogenMod/" />
+  <default revision="refs/tags/android-4.3_r2.1" />
 
   <project path="build" name="platform_build" groups="pdk" remote="simarom" revision="jb-mr2.0-release" >
     <copyfile src="core/root.mk" dest="Makefile" />

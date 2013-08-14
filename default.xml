@@ -7,7 +7,7 @@
   <remote name="sm"
            fetch="https://github.com/SaberMod/"/>  
   <remote name="simarom"
-           fetch="https://github.com/SiMaRom/" />
+           fetch="https://github.com/ashwindz/" />
   <remote name="cm"
            fetch="https://github.com/CyanogenMod/" />
   <remote name="rascarlo"

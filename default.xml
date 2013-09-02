@@ -15,7 +15,7 @@
   <remote name="psx"
            fetch="https://github.com/PSX-PureSpeed/" />
   <default remote="aosp"
-           revision="refs/tags/android-4.3_r2.1" />
+           revision="refs/tags/android-4.3_r2.2" />
 
   <project path="build" name="platform_build" groups="pdk" remote="simarom" revision="jb-mr2.0-release" >
     <copyfile src="core/root.mk" dest="Makefile" />

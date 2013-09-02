@@ -21,12 +21,12 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
-  <project path="bionic" name="android_bionic" groups="pdk" remote="cm" revision="cm-10.2" />
+  <project path="bionic" name="android_bionic" groups="pdk" remote="psx" revision="jb-4.3" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts" />
-  <project path="dalvik" name="android_dalvik" remote="psx" revision="cm-10.2" />
+  <project path="dalvik" name="android_dalvik" remote="psx" revision="jb-4.3" />
   <project path="developers/build" name="platform/developers/build" />
   <project path="developers/demos" name="platform/developers/demos" />
   <project path="developers/docs" name="platform/developers/docs" />
@@ -183,7 +183,7 @@
   <project path="external/robolectric" name="platform/external/robolectric" />
   <project path="external/safe-iop" name="platform/external/safe-iop" groups="pdk" />
   <project path="external/sepolicy" name="platform/external/sepolicy" groups="pdk" />
-  <project path="external/skia" name="platform_external_skia" remote="psx" revision="jb-mr2.1"/>
+  <project path="external/skia" name="android_external_skia" remote="psx" revision="jb-4.3"/>
   <project path="external/smack" name="platform/external/smack" />
   <project path="external/smali" name="platform/external/smali" />
   <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" />
@@ -221,7 +221,7 @@
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" />
-  <project path="frameworks/native" name="android_frameworks_native" remote="psx" revision="jb43" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="psx" revision="jb-4.3" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" />
   <project path="frameworks/opt/colorpicker" name="platform/frameworks/opt/colorpicker" />
@@ -250,7 +250,7 @@
   <project path="hardware/msm7k" name="platform/hardware/msm7k" />
   <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom" />
   <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom" />
-  <project path="hardware/qcom/display" name="platform-hardware-qcom-display"  remote="psx" revision="jb-mr2"/>
+  <project path="hardware/qcom/display" name="android_hardware_qcom_display"  remote="psx" revision="jb-4.3"/>
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom" />
   <project path="hardware/qcom/media" name="platform/hardware/qcom/media" groups="qcom" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" />
@@ -258,7 +258,7 @@
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" />
   <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan" />
   <project path="hardware/ril" name="platform/hardware/ril" groups="pdk" />
-  <project path="libcore" name="android_libcore" remote="cm" revision="cm-10.2"/>
+  <project path="libcore" name="android_libcore" remote="psx" revision="jb-4.3"/>
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
